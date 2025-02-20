@@ -1,0 +1,17 @@
+.flexItem {
+    background-color: grey;
+    padding: 30px;
+
+}
+.flexItem:nth-child(2) {
+    background-color: aqua;
+}
+.flexItem:nth-child(3) {
+    background-color: green;
+}
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    align-items: center;
+}
